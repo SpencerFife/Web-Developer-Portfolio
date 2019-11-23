@@ -1,0 +1,145 @@
+.container1 {
+
+    display: flex;
+    align-content: stretch
+
+}
+
+
+.SpencerBox {
+
+    border-color: #cccccc;
+    top: 10px;
+    position: fixed;
+    left: 0;
+    height: 80px;
+
+}
+
+.headerName {
+
+    background-color: #4aaaa5;
+    border-color: #cccccc;
+    padding: 20px 20px 20px 20px;
+    margin: 0px;
+    text-align: center;
+    font-size: 30px;
+    height: 80px;
+    
+
+}
+
+.NavBox {
+
+    border-color: #cccccc;
+    top: 0;
+    position: fixed;
+    right: 0;
+    flex: 2;
+
+}
+
+.nav-link {
+
+    background-color: #ffffff;
+    color: lightgray;
+    border-color: #cccccc;
+    text-align: right;
+    top: 0;
+    width: 600px;
+    height: 80px;
+   
+}
+
+.container2Parent {
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 200px;
+
+}
+
+.container2 {
+
+    background-color: white;
+    width: 800px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+
+}
+
+.container3 {
+    
+}
+
+.h2 {
+
+}
+
+.h3 {
+
+    color: #4aaaa5;
+    text-align: left;
+}
+
+body {
+
+    background-image: url("so-white.png");
+
+}
+
+.boxed {
+
+    border: 5px solid gray;
+
+}
+
+.box div {
+
+    width: 50px;
+    height: 50px;
+}
+
+.pic1 {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px 0px 100px 0px;
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+#a1:visited {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+#a2:visited {
+
+    text-decoration: none;
+    color: #777777;
+
+}
+
+footer {
+
+    display: block;
+    background-color: #666666;
+    padding: 0;
+
+}
+
+p {
+
+    text-align: left;
+}
