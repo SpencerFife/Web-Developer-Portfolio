@@ -1,145 +1,68 @@
-.container1 {
-
+.navBar {
     display: flex;
-    align-content: stretch
-
-}
-
-
-.SpencerBox {
-
-    border-color: #cccccc;
-    top: 10px;
-    position: fixed;
-    left: 0;
-    height: 80px;
-
-}
-
-.headerName {
-
-    background-color: #4aaaa5;
-    border-color: #cccccc;
-    padding: 20px 20px 20px 20px;
-    margin: 0px;
-    text-align: center;
-    font-size: 30px;
-    height: 80px;
-    
-
-}
-
-.NavBox {
-
-    border-color: #cccccc;
-    top: 0;
-    position: fixed;
-    right: 0;
-    flex: 2;
-
-}
-
-.nav-link {
-
+    justify-content: space-between;
+    align-items: center;
     background-color: #ffffff;
-    color: lightgray;
-    border-color: #cccccc;
-    text-align: right;
-    top: 0;
-    width: 600px;
-    height: 80px;
+    border: 1px #777777
+}
+
+.Spencer {
+    background-color: #4aaaaC;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0px 30px 0px 30px
+}
+
+.navLinks {
+    
+}
+
+
+a:link {
    
 }
 
-.container2Parent {
-
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    padding: 200px;
-
-}
-
-.container2 {
-
+.about {
     background-color: white;
     width: 800px;
-    padding: 10px;
+    padding: 50px;
     margin: 20px;
-    text-align: center;
-
-}
-
-.container3 {
     
 }
-
-.h2 {
-
-}
-
-.h3 {
-
-    color: #4aaaa5;
-    text-align: left;
-}
-
-body {
-
-    background-image: url("so-white.png");
+.aboutText {
 
 }
 
-.boxed {
+.aboutImg {
 
-    border: 5px solid gray;
 
 }
 
-.box div {
-
-    width: 50px;
-    height: 50px;
+h2{
+    color: #4aaaaC;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.pic1 {
-
+#profile {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 100px 0px 100px 0px;
-
-}
-
-a {
-
-    text-decoration: none;
-
-}
-
-#a1:visited {
-
-    text-decoration: none;
-    color: white;
-
-}
-
-#a2:visited {
-
-    text-decoration: none;
-    color: #777777;
-
-}
-
-footer {
-
-    display: block;
-    background-color: #666666;
-    padding: 0;
-
+    height: 300px;
+    width: 360px;   
 }
 
 p {
-
-    text-align: left;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+body {
+    background-image: url("so-white.png");
+    
+}
+
+.footer {
+    background-color: #666666;
+    color: white;
+}
+
