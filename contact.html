@@ -6,21 +6,39 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
-    <div class="navBar">
-        <div class="Spencer">
-            <h1>Spencer Fife</h1>
-        </div>
-
-        <div class="navLinks">
-            <a href="index.html">About Me</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contacts</a>
-        </div>
+<div class="navBar">
+    <div class="Spencer">
+        <h1>Spencer Fife</h1>
     </div>
-    <div class="footer">
-        copywrite
+
+    <div class="navLinks">
+        <a href="index.html">About Me</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contacts</a>
+    </div>
+</div>
+
+<body>
+    <div class="contactForm">
+        <form action="action_page.php">
+
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your name..">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Email Address..">
+
+            <label for="message"></label>
+            <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="submit">
+
+        </form>
     </div>
 </body>
+
+<div class="footer">
+    c. November 2019
+</div>
 
 </html>
