@@ -1,9 +1,12 @@
+.navBar, .body, .footer {
+    display: block;
+    max-height: inherit;
+}
 
 
 .navBar {
     display: flex;
     justify-content: space-between;
-    position: absolute;
     background-color: #ffffff;
     border: 41px #777777;
     width: 100%;
@@ -14,7 +17,6 @@
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 0px 30px 0px 30px;
-    
 }
 
 .navLinks {
@@ -30,18 +32,16 @@ a:link {
 
 .parent-content {
     position: relative;
-       
 }
 
 .child-content {
-    height:500px;
+    height: 500px;
     width: 500px;
     position: absolute;
     left: 50%;
     margin-left: -50px;
     top: 50%;
     margin-top: -50px;
-    
 }
 
 h2 {
@@ -49,30 +49,22 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.aboutText {
-
-}
+.aboutText {}
 
 .aboutImg {
     display: flex;
     justify-content: center;
-
-    
 }
-
 
 #profile {
     height: 160px;
     width: 190px;
-   
 }
 
 p {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-
 
 .footer {
     position: absolute;
@@ -87,34 +79,26 @@ p {
 
 .project-parent {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-direction: row;
 }
 
-.project1,
-.project2,
-.project3,
-.project4,
-.project5 {
-    position: relative;
-    margin: 20px 15px 20px 15px;
+.project-child {
+    width: 900px;
+    display: flex;
+    align-content: flex-start;
 }
 
-.project1,
-.project2,
-.project3,
-.project4,
-.project5,
-#img1,
-#img2,
-#img3,
-#img4,
-#img5 {
+.project1, .project2, .project3, .project4, .project5 {
+    height: 300px;
+    width: 247px
+}
+
+#img1, #img2, #img3, #img4, #img5 {
     width: 247px;
 }
 
 h3 {
-    position: absolute;
     background-color: #4aaaaC;
     color: white;
     font-size: 15px;
@@ -124,5 +108,16 @@ h3 {
     padding: 0;
     margin: 0;
     text-align: center;
+}
 
+.contactForm {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
