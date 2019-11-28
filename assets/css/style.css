@@ -8,8 +8,11 @@
     display: flex;
     justify-content: space-between;
     background-color: #ffffff;
-    border: 41px #777777;
+    border: #777777;
     width: 100%;
+    margin: 0;
+    border: 1px;
+    padding: 0;
 }
 
 .Spencer {
@@ -121,3 +124,4 @@ form {
     flex-direction: column;
     justify-content: space-between;
 }
+
