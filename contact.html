@@ -1,42 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 
-<title>Spencer Fife</title>
-<link rel="stylesheet" href="assets/css/style.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | Spencer Fife</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
+</head>
 
-<div class="navBar">
-    <div class="Spencer">
-        <h1>Spencer Fife</h1>
-    </div>
-
-    <div class="navLinks">
-        <a href="index.html">About Me</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contacts</a>
-    </div>
-</div>
 
 <body>
-    <div class="contactForm">
-        <form action="action_page.php">
 
-            <label for="name">Name</label>
-            <input type="text" id="name" placeholder="Your name..">
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Spencer Fife</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-            <label for="email">Email</label>
-            <input type="text" id="email" name="email" placeholder="Email Address..">
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Contact</h1>
 
-            <label for="message"></label>
-            <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+            <form id="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="John Smith" required="required">
 
-            <input type="submit" value="submit">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
 
-        </form>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required="required"></textarea>
+
+                <input type="submit">
+            </form>
+
+        </section>
+
     </div>
-</body>
 
-<div class="footer">
-    c. November 2019
-</div>
+    <footer>
+        <div class="container">
+            Copyright &copy;
+        </div>
+    </footer>
+</body>
 
 </html>
